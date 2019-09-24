@@ -36,7 +36,7 @@ const RocketType = new GraphQLObjectType({
 //Root query
 
 const RootQuery = new GraphQLObjectType({
-  name: 'RootQuerytype',
+  name: 'RootQueryType',
   fields: {
     launches: {
       type: new GraphQLList(LaunchType),
